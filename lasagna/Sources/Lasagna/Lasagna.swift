@@ -12,5 +12,5 @@ func preparationTimeInMinutes(layers: Int) -> Int {
 }
 // TODO: define the 'totalTimeInMinutes' function
 func totalTimeInMinutes(layers: Int, elapsedMinutes: Int) -> Int {
-  return 20
+  return elapsedMinutes + preparationTimeInMinutes(layers: layers)
 }
