@@ -1,4 +1,4 @@
-import Darwin
+import Foundation
 func sliceSize(diameter: Double?, slices: Int?) -> Double? {
   guard diameter ?? -1 > 0 else {
     return nil
